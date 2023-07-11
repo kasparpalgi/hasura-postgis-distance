@@ -1,0 +1,7 @@
+query NearbyProviders {
+  get_nearby_service_providers(args: {lon: 26.7637858, lat: 58.4240585, max_distance: 7816}) {
+    id
+    travel_distance
+    distance
+  }
+}
