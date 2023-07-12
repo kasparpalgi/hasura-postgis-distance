@@ -1,0 +1,8 @@
+mutation insertProvider($objects: [service_providers_insert_input!]!) {
+  insert_service_providers(objects: $objects) {
+    returning {
+      id
+      geo_location
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "objects": [
+        {
+            "geo_location": {
+                "type": "Point",
+                "coordinates": [
+                    43.75049,
+                    11.03207
+                ]
+            }
+        }
+    ]
+}
